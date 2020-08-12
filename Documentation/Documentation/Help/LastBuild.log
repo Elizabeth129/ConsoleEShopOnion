@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Documentation.shfbproj" started="12.08.2020 10:23:11">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Found HTML Help 1 compiler in &#39;D:\htmlhelp\&#39;
+Locating components in the following folder(s):
+    D:\Epam\ConsoleEShopOnion\Documentation\Documentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2020.3.6.0
+Copyright &#169; 2006-2020, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\Epam\ConsoleEShopOnion\OA_API\OA_API.csproj
+    Found project &#39;D:\Epam\ConsoleEShopOnion\OA_API\OA_API.csproj&#39;
+Source: D:\Epam\ConsoleEShopOnion\OA_DataAccess\OA_DataAccess.csproj
+    Found project &#39;D:\Epam\ConsoleEShopOnion\OA_DataAccess\OA_DataAccess.csproj&#39;
+Source: D:\Epam\ConsoleEShopOnion\OA_Repository\OA_Repository.csproj
+    Found project &#39;D:\Epam\ConsoleEShopOnion\OA_Repository\OA_Repository.csproj&#39;
+Source: D:\Epam\ConsoleEShopOnion\OA_Service\OA_Service.csproj
+    Found project &#39;D:\Epam\ConsoleEShopOnion\OA_Service\OA_Service.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;D:\Epam\ConsoleEShopOnion\OA_API\bin\Debug\netcoreapp3.1\OA_API.dll&#39;
+    Found assembly &#39;D:\Epam\ConsoleEShopOnion\OA_DataAccess\bin\Debug\netcoreapp3.1\OA_DataAccess.dll&#39;
+    Found assembly &#39;D:\Epam\ConsoleEShopOnion\OA_Repository\bin\Debug\netcoreapp3.1\OA_Repository.dll&#39;
+    Found assembly &#39;D:\Epam\ConsoleEShopOnion\OA_Service\bin\Debug\netcoreapp3.1\OA_Service.dll&#39;
+SHFB: Warning BE0062: No documentation source XML comments files found.  The help file will not contain any member comments.
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Английский (США))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0180
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo.proj]
+‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 12.08.2020 10:23:13.
+Џа&#174;ҐЄв &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateRefInfo.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+PrepareForBuild:
+  ‘&#174;&#167;&#164;&#160;&#173;ЁҐ Є&#160;в&#160;&#171;&#174;Ј&#160; &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  ЌҐв ЇаҐ&#164;&#171;&#160;Ј&#160;Ґ&#172;ле ЇҐаҐ&#173;&#160;Їа&#160;ў&#171;Ґ&#173;Ё&#169; ЇаЁўп&#167;ЄЁ &#174;в ResolveAssemblyReferences.
+GenerateRefInfo:
+  MRefBuilder (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 4 assemblies for reflection and 1 dependency assemblies.
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by OA_API [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Diagnostics.Debug (System.Diagnostics.Debug, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by OA_DataAccess [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by OA_DataAccess [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Diagnostics.Debug (System.Diagnostics.Debug, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by OA_Repository [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by OA_Repository [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Diagnostics.Debug (System.Diagnostics.Debug, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by OA_Service [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by OA_Service [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateRefInfo.proj]
+  Wrote information on 4 namespaces, 18 types, and 113 members
+  Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\reflection.org&quot; ў &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\reflection.all&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+‘Ў&#174;аЄ&#160; Їа&#174;ҐЄв&#160; &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateRefInfo.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#160; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+    Last step completed in 00:00:07,3309
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
+‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 12.08.2020 10:23:20.
+Џа&#174;ҐЄв &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\TransformManifest.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+TransformManifest:
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Љ&#174;ЇЁа&#174;ў&#160;&#173;ЁҐ д&#160;&#169;&#171;&#160; Ё&#167; &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\reflection.xml&quot; ў &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\reflection.nofilenames&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+‘Ў&#174;аЄ&#160; Їа&#174;ҐЄв&#160; &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\TransformManifest.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#160; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+    Last step completed in 00:00:00,8993
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0239
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Content\Welcome.aml&#39;
+    D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Content\Welcome.aml -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\ddueXml\dde32ac5-5eb9-4381-8e5c-06f7944e4b3a.xml
+    Parsing topic file &#39;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Content\VersionHistory\VersionHistory.aml&#39;
+    D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Content\VersionHistory\VersionHistory.aml -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\ddueXml\21fff43d-045c-4ed2-9694-c0726a7fcf47.xml
+    Parsing topic file &#39;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Content\VersionHistory\v1.0.0.0.aml -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\ddueXml\d9123c20-e4fb-4123-b559-af5d8fcd1235.xml
+    Last step completed in 00:00:00,0458
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into manifest.xml
+    Last step completed in 00:00:00,0120
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+D:\Epam\ConsoleEShopOnion\Documentation\Documentation\icons\Help.png -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\Help.png
+    Last step completed in 00:00:00,0060
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 12.08.2020 10:23:21.
+Џа&#174;ҐЄв &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+GenerateIntermediateTOC:
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+‘Ў&#174;аЄ&#160; Їа&#174;ҐЄв&#160; &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#160; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,3331
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,2154
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,0060
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
+‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 12.08.2020 10:23:21.
+Џа&#174;ҐЄв &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+BuildTopics:
+  BuildAssembler (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:OA_API.Controllers] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_API.Controllers.Admin] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.#ctor(OA_Service.IOrderRepository,OA_Service.IGoodsRepository,OA_Service.IUserRepository)] Missing &lt;param name=&quot;orders&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.#ctor(OA_Service.IOrderRepository,OA_Service.IGoodsRepository,OA_Service.IUserRepository)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.#ctor(OA_Service.IOrderRepository,OA_Service.IGoodsRepository,OA_Service.IUserRepository)] Missing &lt;param name=&quot;users&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.AddGoods(OA_DataAccess.Goods)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.AddGoods(OA_DataAccess.Goods)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.AddToBasket(OA_DataAccess.Goods)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.AddToBasket(OA_DataAccess.Goods)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ChangeGood(OA_DataAccess.Goods,System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ChangeGood(OA_DataAccess.Goods,System.Int32)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ChangeGood(OA_DataAccess.Goods,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ChangeProfile(OA_DataAccess.User,OA_DataAccess.User)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ChangeProfile(OA_DataAccess.User,OA_DataAccess.User)] Missing &lt;param name=&quot;u&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ChangeProfile(OA_DataAccess.User,OA_DataAccess.User)] Missing &lt;param name=&quot;temp&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ChangeStatus(System.Int32,OA_DataAccess.OrderStatus)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ChangeStatus(System.Int32,OA_DataAccess.OrderStatus)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ChangeStatus(System.Int32,OA_DataAccess.OrderStatus)] Missing &lt;param name=&quot;orderStatus&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.Checkout(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.Checkout(System.String,System.String,System.String)] Missing &lt;param name=&quot;customerName&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.Checkout(System.String,System.String,System.String)] Missing &lt;param name=&quot;customerPhoneNumber&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.Checkout(System.String,System.String,System.String)] Missing &lt;param name=&quot;deliveryAddress&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.DenyOrder(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.DenyOrder(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.DenyOrder(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.SearchByName(System.Void)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.SearchByName(System.Void)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.SearchByName(System.Void)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ShowAllUsers] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ShowAllUsers] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:OA_API.Controllers.Admin.user] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ViewAllGoods] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ViewAllGoods] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ViewAllOrders] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Admin.ViewAllOrders] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_API.Controllers.Guest] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.#ctor(OA_Service.IOrderRepository,OA_Service.IGoodsRepository,OA_Service.IUserRepository)] Missing &lt;param name=&quot;orders&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.#ctor(OA_Service.IOrderRepository,OA_Service.IGoodsRepository,OA_Service.IUserRepository)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.#ctor(OA_Service.IOrderRepository,OA_Service.IGoodsRepository,OA_Service.IUserRepository)] Missing &lt;param name=&quot;users&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.CheckForLogIn(System.String,System.String)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.CheckForLogIn(System.String,System.String)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.CheckForLogIn(System.String,System.String)] Missing &lt;param name=&quot;login&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.CheckForLogIn(System.String,System.String)] Missing &lt;param name=&quot;password&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.CheckLogin(System.String)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.CheckLogin(System.String)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.CheckLogin(System.String)] Missing &lt;param name=&quot;login&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.LogIn(System.String,System.String)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.LogIn(System.String,System.String)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.LogIn(System.String,System.String)] Missing &lt;param name=&quot;login&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.LogIn(System.String,System.String)] Missing &lt;param name=&quot;password&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.Register(OA_DataAccess.User)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.Register(OA_DataAccess.User)] Missing &lt;param name=&quot;user&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.SearchByName(System.Void)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.SearchByName(System.Void)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.SearchByName(System.Void)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:OA_API.Controllers.Guest.user] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.ViewAllGoods] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Guest.ViewAllGoods] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_API.Controllers.Registered] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.#ctor(OA_Service.IOrderRepository,OA_Service.IGoodsRepository,OA_Service.IUserRepository)] Missing &lt;param name=&quot;orders&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.#ctor(OA_Service.IOrderRepository,OA_Service.IGoodsRepository,OA_Service.IUserRepository)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.#ctor(OA_Service.IOrderRepository,OA_Service.IGoodsRepository,OA_Service.IUserRepository)] Missing &lt;param name=&quot;users&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.AddToBasket(OA_DataAccess.Goods)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.AddToBasket(OA_DataAccess.Goods)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.ChangeProfile(OA_DataAccess.User)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.ChangeProfile(OA_DataAccess.User)] Missing &lt;param name=&quot;temp&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.ChangeStatusToComplete(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.ChangeStatusToComplete(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.Checkout(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.Checkout(System.String,System.String,System.String)] Missing &lt;param name=&quot;customerName&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.Checkout(System.String,System.String,System.String)] Missing &lt;param name=&quot;customerPhoneNumber&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.Checkout(System.String,System.String,System.String)] Missing &lt;param name=&quot;deliveryAddress&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.DenyOrder(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.DenyOrder(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.DenyOrder(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.SearchByName(System.Void)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.SearchByName(System.Void)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.SearchByName(System.Void)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:OA_API.Controllers.Registered.user] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.UserCompleteOrders] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.UserCompleteOrders] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.UserOrders] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.UserOrders] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.ViewAllGoods] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_API.Controllers.Registered.ViewAllGoods] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:OA_DataAccess] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_DataAccess.BaseEntity] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.BaseEntity.Id] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_DataAccess.Goods] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Goods.#ctor(System.String,System.String,System.Decimal)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Goods.#ctor(System.String,System.String,System.Decimal)] Missing &lt;param name=&quot;description&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Goods.#ctor(System.String,System.String,System.Decimal)] Missing &lt;param name=&quot;price&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Goods.Description] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Goods.Equals(OA_DataAccess.Goods)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Goods.Equals(OA_DataAccess.Goods)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Goods.Equals(OA_DataAccess.Goods)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Goods.Name] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Goods.Price] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_DataAccess.Order] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Order.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;customerLogin&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Order.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;customerName&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Order.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;customerPhoneNumber&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Order.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;deliveryAddress&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Order.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.List`1)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Order.CustomerLogin] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Order.CustomerName] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Order.CustomerPhoneNumber] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Order.dateTimeOfOrder] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Order.DeliveryAddress] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Order.Equals(OA_DataAccess.Order)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Order.Equals(OA_DataAccess.Order)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.Order.Equals(OA_DataAccess.Order)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Order.Goods] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.Order.orderStatus] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_DataAccess.OrderStatus] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_DataAccess.User] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.User.#ctor(System.String,System.String,OA_DataAccess.UserType)] Missing &lt;param name=&quot;login&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.User.#ctor(System.String,System.String,OA_DataAccess.UserType)] Missing &lt;param name=&quot;password&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.User.#ctor(System.String,System.String,OA_DataAccess.UserType)] Missing &lt;param name=&quot;status&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.User.Basket] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.User.Equals(OA_DataAccess.User)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.User.Equals(OA_DataAccess.User)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_DataAccess.User.Equals(OA_DataAccess.User)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.User.Login] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.User.Password] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_DataAccess.User.Status] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_DataAccess.UserType] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:OA_Repository] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Repository.ApplicationContext] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.ApplicationContext.#ctor(System.Collections.Generic.List`1,System.Void,OA_DataAccess.Goods)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.ApplicationContext.#ctor(System.Collections.Generic.List`1,System.Void,OA_DataAccess.Goods)] Missing &lt;param name=&quot;users&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.ApplicationContext.#ctor(System.Collections.Generic.List`1,System.Void,OA_DataAccess.Goods)] Missing &lt;param name=&quot;orders&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.ApplicationContext.Get``1] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.ApplicationContext.Get``1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.ApplicationContext.Get``1] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_Repository.ApplicationContext.Goods] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_Repository.ApplicationContext.Orders] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OA_Repository.ApplicationContext.Users] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Repository.IRepository`1] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Repository.IRepository`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.IRepository`1.Add(`0)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.IRepository`1.Add(`0)] Missing &lt;param name=&quot;elem&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.IRepository`1.GetAll] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.IRepository`1.GetAll] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.IRepository`1.GetById(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.IRepository`1.GetById(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.IRepository`1.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Repository.Repository`1] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Repository.Repository`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.Repository`1.#ctor(OA_Repository.ApplicationContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.Repository`1.Add(`0)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.Repository`1.Add(`0)] Missing &lt;param name=&quot;elem&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.Repository`1.GetAll] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.Repository`1.GetAll] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.Repository`1.GetById(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.Repository`1.GetById(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Repository.Repository`1.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:OA_Service] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Service.GoodsRepository] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.#ctor(OA_Repository.IRepository{OA_DataAccess.Goods})] Missing &lt;param name=&quot;repository&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.Add(OA_DataAccess.Goods)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.Add(OA_DataAccess.Goods)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.Change(OA_DataAccess.Goods,System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.Change(OA_DataAccess.Goods,System.Int32)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.Change(OA_DataAccess.Goods,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.GetAll] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.GetAll] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.GetById(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.GetById(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.GetGoodsByName(System.Void)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.GetGoodsByName(System.Void)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.GoodsRepository.GetGoodsByName(System.Void)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Service.IGoodsRepository] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.Add(OA_DataAccess.Goods)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.Add(OA_DataAccess.Goods)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.Change(OA_DataAccess.Goods,System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.Change(OA_DataAccess.Goods,System.Int32)] Missing &lt;param name=&quot;goods&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.Change(OA_DataAccess.Goods,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.GetAll] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.GetAll] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.GetById(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.GetById(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.GetGoodsByName(System.Void)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.GetGoodsByName(System.Void)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IGoodsRepository.GetGoodsByName(System.Void)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Service.IOrderRepository] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.Add(OA_DataAccess.Order)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.Add(OA_DataAccess.Order)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.ChangeStatus(OA_DataAccess.OrderStatus,System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.ChangeStatus(OA_DataAccess.OrderStatus,System.Int32)] Missing &lt;param name=&quot;status&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.ChangeStatus(OA_DataAccess.OrderStatus,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.Checkout(OA_DataAccess.Order)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.Checkout(OA_DataAccess.Order)] Missing &lt;param name=&quot;order&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetAll] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetAll] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetById(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetById(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetUserCompleteOders(System.Void)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetUserCompleteOders(System.Void)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetUserCompleteOders(System.Void)] Missing &lt;param name=&quot;login&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetUserOders(System.Void)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetUserOders(System.Void)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IOrderRepository.GetUserOders(System.Void)] Missing &lt;param name=&quot;login&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Service.IUserRepository] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.Add(OA_DataAccess.User)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.Add(OA_DataAccess.User)] Missing &lt;param name=&quot;user&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.ChangePersonalInformation(OA_DataAccess.User,OA_DataAccess.User)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.ChangePersonalInformation(OA_DataAccess.User,OA_DataAccess.User)] Missing &lt;param name=&quot;user&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.ChangePersonalInformation(OA_DataAccess.User,OA_DataAccess.User)] Missing &lt;param name=&quot;temp&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.GetAll] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.GetAll] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.GetById(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.GetById(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.IUserRepository.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Service.OrderRepository] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.#ctor(OA_Repository.IRepository{OA_DataAccess.Order})] Missing &lt;param name=&quot;repository&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.Add(OA_DataAccess.Order)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.Add(OA_DataAccess.Order)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.ChangeStatus(OA_DataAccess.OrderStatus,System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.ChangeStatus(OA_DataAccess.OrderStatus,System.Int32)] Missing &lt;param name=&quot;status&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.ChangeStatus(OA_DataAccess.OrderStatus,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.Checkout(OA_DataAccess.Order)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.Checkout(OA_DataAccess.Order)] Missing &lt;param name=&quot;order&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetAll] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetAll] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetById(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetById(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetUserCompleteOders(System.Void)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetUserCompleteOders(System.Void)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetUserCompleteOders(System.Void)] Missing &lt;param name=&quot;login&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetUserOders(System.Void)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetUserOders(System.Void)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.OrderRepository.GetUserOders(System.Void)] Missing &lt;param name=&quot;login&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OA_Service.UserRepository] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.#ctor(OA_Repository.IRepository{OA_DataAccess.User})] Missing &lt;param name=&quot;repository&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.Add(OA_DataAccess.User)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.Add(OA_DataAccess.User)] Missing &lt;param name=&quot;user&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.ChangePersonalInformation(OA_DataAccess.User,OA_DataAccess.User)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.ChangePersonalInformation(OA_DataAccess.User,OA_DataAccess.User)] Missing &lt;param name=&quot;user&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.ChangePersonalInformation(OA_DataAccess.User,OA_DataAccess.User)] Missing &lt;param name=&quot;temp&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.GetAll] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.GetAll] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.GetById(System.Int32)] Missing &lt;summary&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.GetById(System.Int32)] Missing &lt;returns&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OA_Service.UserRepository.GetById(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj]
+  Processed 159 topic(s)
+  249 warning(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+  ResolveArtLinksComponent: Copying media files...
+  ResolveReferenceLinksComponent: 1 entries added to the member ID URL cache.  New cache size: 16 entries
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+‘Ў&#174;аЄ&#160; Їа&#174;ҐЄв&#160; &quot;D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\BuildTopics.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#160; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+    Last step completed in 00:00:09,4962
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0070
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2020.3.6.0
+Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1
+Processed 159 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Documentation.hhc
+    Last step completed in 00:00:00,5336
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00,3142
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0070
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 1 second
+  
+  161	Topics
+  
+  1,691	Local links
+  
+  0	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\Epam\ConsoleEShopOnion\Documentation\Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm, 218,267 bytes
+  
+  Compression decreased file by 1,143,196 bytes.
+  
+    Last step completed in 00:00:01,8651
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0878
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 12.08.2020 10:23:33.  Total time: 00:00:22,9146
+
+</buildStep>
+</shfbBuild>

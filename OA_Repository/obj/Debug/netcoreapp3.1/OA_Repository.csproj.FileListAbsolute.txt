@@ -1,0 +1,11 @@
+D:\Epam\ConsoleEShopOnion\OA_Repository\bin\Debug\netcoreapp3.1\OA_Repository.deps.json
+D:\Epam\ConsoleEShopOnion\OA_Repository\bin\Debug\netcoreapp3.1\OA_Repository.dll
+D:\Epam\ConsoleEShopOnion\OA_Repository\bin\Debug\netcoreapp3.1\OA_Repository.pdb
+D:\Epam\ConsoleEShopOnion\OA_Repository\bin\Debug\netcoreapp3.1\OA_DataAccess.dll
+D:\Epam\ConsoleEShopOnion\OA_Repository\bin\Debug\netcoreapp3.1\OA_DataAccess.pdb
+D:\Epam\ConsoleEShopOnion\OA_Repository\obj\Debug\netcoreapp3.1\OA_Repository.csprojAssemblyReference.cache
+D:\Epam\ConsoleEShopOnion\OA_Repository\obj\Debug\netcoreapp3.1\OA_Repository.AssemblyInfoInputs.cache
+D:\Epam\ConsoleEShopOnion\OA_Repository\obj\Debug\netcoreapp3.1\OA_Repository.AssemblyInfo.cs
+D:\Epam\ConsoleEShopOnion\OA_Repository\obj\Debug\netcoreapp3.1\OA_Repository.csproj.CopyComplete
+D:\Epam\ConsoleEShopOnion\OA_Repository\obj\Debug\netcoreapp3.1\OA_Repository.dll
+D:\Epam\ConsoleEShopOnion\OA_Repository\obj\Debug\netcoreapp3.1\OA_Repository.pdb
